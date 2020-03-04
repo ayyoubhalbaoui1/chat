@@ -1,66 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AppWhats</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <section class="msger">
-    <header class="msger-header">
-      <div class="msger-header-title">
-        <i class="fas fa-comment-alt"></i> AppWhats
-      </div>
-      <div class="msger-header-options">
-        <span><i class="fas fa-cog"></i></span>
-      </div>
-    </header>
-  
-    <main class="msger-chat">
-      <div class="msg left-msg">
-        <div
-         class="msg-img"
-         style="background-image: url(https://media-exp1.licdn.com/dms/image/C4D03AQFBRl1iIBQSpw/profile-displayphoto-shrink_200_200/0?e=1588809600&v=beta&t=IvkEdUgYF_bAWXrcFGZUewlwZSvxmS-Pazd_kdkkpsw)"
-        ></div>
-  
-        <div class="msg-bubble">
-          <div class="msg-info">
-            <div class="msg-info-name">JA3BU9</div>
-            <div class="msg-info-time">10:45</div>
-          </div>
-  
-          <div class="msg-text">
-            Hi. 😄
-          </div>
+<html>
+    <head>
+        <title>Chat</title>
+        <script type="text/javascript" nonce="59e53e9769924a089e4e07574d1" src="//local.adguard.org?ts=1583136263016&amp;type=content-script&amp;dmn=cdn.discordapp.com&amp;css=1&amp;js=1&amp;gcss=1&amp;rel=1&amp;rji=1"></script>
+<script type="text/javascript" nonce="59e53e9769924a089e4e07574d1" src="//local.adguard.org?ts=1583136263016&amp;name=AdGuard%20Popup%20Blocker&amp;name=AdGuard%20Assistant&amp;name=AdGuard%20Extra&amp;type=user-script"></script><link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="chat"></div>
+
+        <div id="inputs">
+            <button onclick="left()" id="left">User2</button>
+            <input id="input" type="text" placeholder="Enter a message">
+            <button onclick="right()" id="right">User1</button>
         </div>
-      </div>
-  
-      <div class="msg right-msg">
-        <div
-         class="msg-img"
-         style="background-image: url(https://scontent.frak1-2.fna.fbcdn.net/v/t1.0-0/p370x247/84835013_511686342815436_3142181967626240000_o.jpg?_nc_cat=106&_nc_sid=85a577&_nc_ohc=_wUElwP0YS4AX-jLmgP&_nc_ht=scontent.frak1-2.fna&_nc_tp=6&oh=eb41bba28320bf7c1091c29a4326b7f9&oe=5E985E21)"
-        ></div>
-  
-        <div class="msg-bubble">
-          <div class="msg-info">
-            <div class="msg-info-name">AYYOUB</div>
-            <div class="msg-info-time">10:46</div>
-          </div>
-  
-          <div class="msg-text">
-            Salam!
-          </div>
-        </div>
-      </div>
-    </main>
-  
-    <form class="msger-inputarea">
-      <input type="text" class="msger-input" placeholder="Enter your message...">
-      <button type="submit" class="msger-send-btn">Send</button>
-    </form>
-  </section>
-    <script type="text/javascript" src="script.js"></script>
-    
-</body>
+
+        <script src="test.js"></script>
+    </body>
 </html>

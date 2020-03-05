@@ -1,4 +1,4 @@
-function left(){
+function User1(){
     var chat = document.getElementById("chat");
     var div = document.createElement("div");
     div.setAttribute("class", "chat-1");
@@ -17,7 +17,7 @@ function left(){
     message.value = "";
 }
 
-function right(){
+function User2(){
     var chat = document.getElementById("chat");
 
     var div = document.createElement("div");

@@ -5,14 +5,23 @@
 <script type="text/javascript" nonce="59e53e9769924a089e4e07574d1" src="//local.adguard.org?ts=1583136263016&amp;name=AdGuard%20Popup%20Blocker&amp;name=AdGuard%20Assistant&amp;name=AdGuard%20Extra&amp;type=user-script"></script><link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <section class="msger">
+            <header class="msger-header">
+                <div class="msger-header-title">
+                  <i class="fas fa-comment-alt"></i>AppWhats
+                </div>
+                <div class="msger-header-options">
+                  <span><i class="fas fa-cog"></i></span>
+                </div>
+              </header>
         <div id="chat"></div>
 
         <div id="inputs">
-            <button onclick="left()" id="left">User2</button>
+            <button onclick="User2()" id="left">User2</button>
             <input id="input" type="text" placeholder="Enter a message">
-            <button onclick="right()" id="right">User1</button>
+            <button onclick="User1()" id="right">User1</button>
         </div>
-
-        <script src="test.js"></script>
+    </section>
+        <script src="script.js"></script>
     </body>
 </html>

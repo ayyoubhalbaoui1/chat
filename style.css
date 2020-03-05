@@ -1,8 +1,8 @@
 body{
     overflow-x: hidden;
-    background-color: #a9dbd8;
     margin: 0px;
     padding: 0px;
+    background-image: url();
 }
 #inputs{
     display: flex;
@@ -14,6 +14,11 @@ body{
 #inputs #left{
     width: 10%;
     padding: 10px;
+    background: rgb(0, 196, 65);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+
 }
 
 #inputs input{
@@ -28,25 +33,28 @@ body{
 #inputs #right{
     width: 10%;
     padding: 10px;
+    background: rgb(100, 158, 224);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 span{
     float: right;
     margin-bottom: 1px;
-    border: 2px solid #e5ffcc;
     width: 30%;
-    background-color: #e5ffcc;
-    color: black;
+    background: rgb(100, 158, 224);
+    color: #fff;
     padding: 10px;
-    font-size: 18px;
+    font-size: 15px;
     border-radius: 10px;
 }
 
 p{
     border: 2px solid white;
     width: 30%;
-    background-color: white;
-    color: black;
+    background-color: rgb(0, 196, 65);
+    color: #fff;
     padding: 10px;
     font-size: 18px;
     border-radius: 10px;
@@ -54,14 +62,13 @@ p{
 
 
 #chat{
-    background-color: red;
     width: 100%;
     overflow: auto; 
     height: 92%;
     position: absolute;
     top: 0px;
     left:0px;
-    background-color: #a9dbd8;
+    background-color: #fcfcfe;
 }
 
 .chat-1{
